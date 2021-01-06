@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+codeblock {
+    border-radius: 4px;
+    font-family: Consolas,"courier new";
+    background-color: #2F3136;
+    color: white;
+    padding: 3.5px;
+    font-size: 105%;
+}
+
+body {
+    background: #232529;
+}
