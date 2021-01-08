@@ -12,3 +12,15 @@ codeblock {
 body {
     background: #232529;
 }
+
+.clock {
+    border-radius: 4px;
+    font-family: Consolas,"courier new";
+    background-color: #2F3136;
+    color: white;
+    padding: 3.5px;
+    font-size: 100%;
+    position: fixed;
+    right: 0;
+    margin-right: 5px;
+}
