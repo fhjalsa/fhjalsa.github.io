@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+codeblock {
+    border-radius: 4px;
+    font-family: Consolas,"courier new";
+    background-color: #2F3136;
+    color: white;
+    padding: 3.5px;
+    font-size: 105%;
+}
+
+SubTitle {
+    display: block;
+    font-size: 500%;
+    color: crimson;
+    font-family: courier;
+}
+
+description {
+    display: block;
+    font-size: 150%;
+    color: white; 
+    font-family: JetBrains Mono;
+    margin-left: 10px;
+}
+
+body {
+    background: #232529;
+}
+
+.clock {
+    border-radius: 4px;
+    font-family: Consolas,"courier new";
+    background-color: #2F3136;
+    color: white;
+    padding: 5px;
+    font-size: 250%;
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+}
