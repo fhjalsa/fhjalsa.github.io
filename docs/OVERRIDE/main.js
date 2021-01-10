@@ -29,6 +29,7 @@ function clock() {
     }
 
     document.getElementById('time').innerHTML = `${hours}:${mins}:${secs} ${AmOrPm}`
+    console.log(`Changed Time To: ${hours}:${mins}:${secs} ${AmOrPm}`)
 }
 
 setInterval(clock,1000);

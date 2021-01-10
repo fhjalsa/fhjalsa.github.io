@@ -9,6 +9,21 @@ codeblock {
     font-size: 105%;
 }
 
+SubTitle {
+    display: block;
+    font-size: 400%;
+    color: crimson;
+    font-family: courier;
+}
+
+description {
+    display: block;
+    font-size: 150%;
+    color: white; 
+    font-family: JetBrains Mono;
+    margin-left: 10px;
+}
+
 body {
     background: #232529;
 }
