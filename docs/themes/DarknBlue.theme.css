@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');
+
+:root {
+    --background-primary: #0c131c;
+    --background-secondary: #0c131c;
+    --background-secondary-alt: #0c131c;
+    --background-tertiary: #0c131c;
+    --background-accent: #009ddb;
+
+    --background-mentioned: rgba(0, 157, 219, 0.51);
+    --background-mentioned-hover: rgba(0, 157, 219, 0.57);
+    --background-mentioned-bar: var(--background-accent);
+    --mention-color: #4a084f;
+
+    --text-link: var(--background-accent);
+    --background-floating: var(--background-tertiary);
+    --channeltextarea-background: var(--background-tertiary);
+    --scrollbar-auto-thumb: var(--background-accent);
+    --scrollbar-auto-track: #1a1a1a;
+    --bd-blue: var(--background-accent);
+    --radio-group-dot-foreground: var(--background-accent);
+}
+
+.mentioned-xhSam7 {
+    border: 0px;
+}
+
+.mentioned-xhSam7:before {
+    background: var(--background-mentioned-bar);
+}
+
+.theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention {
+    background-color: var(--background-mentioned) !important;
+    color: var(--mention-color);
+    font-weight: 3px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    transition: all 0.2s linear;
+    box-sizing: border-box;
+}
+
+.theme-dark .mentioned-xhSam7 .mention:hover, .theme-light .mentioned-xhSam7 .mention:hover {
+    background-color: var(--background-mentioned-hover) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.peopleList-3c4jOR {
+    background: var(--background-primary);
+}
+
+.headerPlaying-j0WQBV {
+    background: var(--background-accent);
+}
+
+.ring-13rgEW {
+    border: green;
+}
+
+.embedWrapper-lXpS3L {
+    background: var(--background-tertiary);
+    border: 2px solid white;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--background-accent);
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: var(--background-accent);
+}
+
+.circleIconButton-jET_ig {
+    color: grey;
+}
+
+.container-3baos1 {
+    border: 2px solid var(--background-accent);
+    border-radius: 3px;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: var(--background-accent);
+}
+
+.newMessagesBar-265mhP {
+    background-color: var(--background-accent);
+}
+
+code {
+    font-family: "JetBrains Mono", "Share Tech Mono", monospace;
+}
+
+code[class="inline"] {
+    font-family: "JetBrains Mono", "Share Tech Mono", monospace;
+}
+
+.scroller-3BxosC {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.scrollableContainer-2NUZem {
+    border-radius: 17px;
+    transition: all 0.2s linear;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+}
+
+.channelTextArea-rNsIhG {
+    border-radius: 17px;
+    transition: all 0.2s linear;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+}
+
+.scrollableContainer-2NUZem:focus-within {
+    border-radius: 17px;
+    transition: all 0.2s linear;
+    border: 1px solid var(--background-accent);
+    box-shadow: 0 0 5px var(--background-accent);
+}
+
+.channelTextArea-rNsIhG:focus-within {
+    border-radius: 17px;
+    transition: all 0.2s linear;
+    border: 1px solid var(--background-accent);
+    box-shadow: 0 0 5px var(--background-accent);
+}
+
+.selected-bZ3Lue {
+    font-size: 20px !important;
+}
+
+.searchBar-3dMhjb {
+    border: 0.1px solid var(--background-accent);
+    box-sizing: border-box;
+}
+
+.autocomplete-1vrmpx {
+  border: 1px solid var(--background-accent);
+  background-color: var(--background-primary) !important;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+  background-color: var(--background-accent);
+}
+
+.colorBrand-ROmMP1 {
+  color: var(--background-accent);
+  font-weight: bold;
+}
+
+.colorDanger-2qLCe1 {
+  color: var(--background-accent);
+  font-weight: bold;
+}
+
+.topSectionPlaying-1J5E4n {
+  background-color: var(--background-accent);
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+  color: var(--background-accent);
+  background-color: var(--background-tertiary);
+  font-weight: bold;
+  border: 1px solid var(--background-primary);
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  color: var(--background-accent);
+  background-color: black;
+  font-weight: bold;
+}
+
+.additionalActionsIcon-1FoUlE {
+  color: var(--background-tertiary)
+}
+
+.bd-modal-wrapper .footer button:hover {
+  background-color: var(--background-accent);
+}
+
+.root-1gCeng {
+  background-color: var(--background-primary) !important;
+}
+
+.resultsGroup-r_nuzN {
+    background-color: var(--background-primary);
+}
+
+.option-96V44q:after {
+    display: none;
+}
+
+.headerTop-3C2Zn0 {
+    background: var(--background-accent);
+}
+
+.username-2b1r56 span {
+    color: white;
+}
+
+.body-3iLsc4, .footer-1fjuF6 {
+    background: var(--background-primary) !important;
+}
+
+.barFill-23-gu- {
+  background-color: var(--background-accent);
+}
