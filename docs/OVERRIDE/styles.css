@@ -6,19 +6,33 @@ codeblock {
     background-color: #2F3136;
     color: white;
     padding: 3.5px;
-    font-size: 105%;
+    font-size: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(165, 0, 33);
 }
 
 SubTitle {
     display: block;
-    font-size: 400%;
+    font-size: 5rem;
     color: crimson;
     font-family: courier;
 }
 
 description {
     display: block;
-    font-size: 150%;
+    font-size: 1.3rem;
     color: white; 
     font-family: JetBrains Mono;
     margin-left: 10px;
@@ -34,8 +48,21 @@ body {
     background-color: #2F3136;
     color: white;
     padding: 5px;
-    font-size: 250%;
+    font-size: 1.3rem;
     position: fixed;
     right: 0;
     margin-right: 10px;
+}
+
+.container {
+    width: 90%;
+    border: 2px solid transparent;
+}
+
+.disclaimer {
+    margin-top: 15px;
+    width: auto;
+    bottom: 0;
+    border: 2px solid transparent;
+    background: transparent;
 }
